@@ -8,3 +8,37 @@ Müxrəlif mənbələrdən bu problemin yaranma səbəbini araşdırın. Hansı 
 3) Tələbə özü fərqli mənbədən bir məqalə, linkini öz reposuna əlavə edir, çıxardığı nəticəni qeyd edir
 4) 4 məqalənin müqayisəsini deyir və nəticəni öz sözləri ilə yazır
 5) Bu məqalələrlə bağlı youtube, vaimo, tedx və s mənbələrin linklərini əlavə edilməsi
+
+Bu hesabatda Proqram Təminatının İnkişaf Həyat Dövründə (SDLC) düzgün planlama aparılmayanda yaranan real fəsadları, büdcə itkilərini və gecikmələri fərqli platformadakı real məqalələr üzərindən təhlil etmişəm.
+
+1) Medium Platformasından Seçdiyim Məqalələr və Qeydlərim
+
+• Məqalə 1: Solving Common Challenges in the Software Development Life Cycle (https://medium.com/@raushan.nit33/solving-common-challenges-in-the-software-development-life-cycle-bc7cdeda552a)
+	• Mənim çıxardığım nəticə: Bu müəllifin fikirlərində ən çox diqqətimi çəkən məqam "Scope Creep", yəni layihə başladıqdan sonra sifarişçinin ağlına gələn davamlı yeni istəklər oldu. Proqramçılar əvvəlcədən dəqiq plan qurmadıqda, layihənin ortasında gələn hər xırda dəyişiklik kodu darmadağın edir. Müəllif bunun həlli üçün kod standartlarının qoyulmasını və avtomatlaşdırılmış test alətlərini təklif edir, mənə görə isə ilkin mərhələdə müştəri ilə "olmazları" dəqiq danışmaq ən yaxşı həlldir.
+• Məqalə 2: How to Prevent Failures of Software Projects? (https://medium.com/@ict20087/how-to-prevent-failures-of-software-projects-2bd1e1eb1d16)
+	• Mənim çıxardığım nəticə: Bu məqalədə menecerlərin və tərtibatçıların çox vaxt dəbdə olan ən son texnologiyaların arxasınca qaçaraq layihəni batırmasından bəhs edilir. Həmçinin vaxtında hesabat verilməməsi (milestones olmaması) layihəni geri dönülməz bir iflasa aparır. Deməli, SDLC-də sadəcə kod yazmaq yox, riskləri vaxtında ölçmək əsas şərtdir.
+
+2) LinkedIn Platformasından Analiz Etdiyim Material
+
+• Məqalə 3: Why Software Projects Quietly Drain Budgets and What Smart Teams Do About It (https://www.linkedin.com/pulse/why-software-projects-quietly-drain-budgets-what-smart-harry-phung-uxnpc)
+	• Mənim çıxardığım nəticə: LinkedIn-də tapdığım bu bloq tam idarəetmə baxımından yazılıb. Müəllif deyir ki, şirkətlərin rəhbərləri biznes nəticələrinə, proqramçılar isə texniki icraya baxırlar. Arada düzgün ünsiyyət (SDLC-nin əlaqələndirmə mərhələsi) olmayanda biznes tərəfi çox bəsit görünən bir funksiyanın proqram tərəfində nə qədər baha başa gələcəyini başqa cür başa düşür. Bu da büdcənin səssizcə tükənməsinə, kodun yenidən yazılmasına (rework) səbəb olur. Həlli isə komandalar arası gözləntilərin öncədən sinxronlaşdırılmasıdır.
+
+3) Şəxsi Seçimim Olan Fərqli Resurs 
+• Məqalə 4: Common Problems during SDLC  (https://www.e-spincorp.com/common-problems-during-sdlc-2/)
+	• Mənim çıxardığım nəticə: Bu resursda SDLC-nin ən ağrılı yeri olan "Test (QA)" mərhələsinə toxunulub. Təcrübəsiz menecerlər və qeyri-real vaxt limitləri üzündən proqramçılar kodu çatdırmaq üçün testi tələsik keçirlər və ya tamamilə sona saxlayırlar. Son mərhələdə yoxlanılan proqramda elə böyük boşluqlar çıxır ki, layihənin təhvil verilməsi aylarla gecikir. Müəllif bunu DevSecOps metodologiyası ilə həll etməyi məsləhət görür.
+
+4) Oxuduğum 4 Məqalənin Şəxsi Müqayisəsi və Öz Sözlərimlə Müəllif Yekunu
+Məqalələrin hamısını oxuduqdan sonra anladım ki, proqram təminatının uğursuz olmasının günahkarı proqramçının zəif kod yazması deyil, idarəetmənin zəif olmasıdır.
+• Medium-dakı birinci yazı daha çox texniki xətalara və kod keyfiyyətinə fokuslanır.
+• İkinci Medium məqaləsi texnoloji trendlərin arxasınca kor-koranə qaçmağın fəsadlarını göstərir.
+• LinkedIn materialı menecerlərlə texniki komandanın dil tapa bilməməsinin maliyyə tərəfini (büdcə aşımını) ortaya qoyur.
+• 4-cü məqalə isə test mərhələsinin qurban verilməsinin yaratdığı gecikmələri izah edir.
+Öz fikirlərimlə xülasə:
+Mənə görə, SDLC-də ən böyük səhv Waterfall (Şəlalə) kimi köhnə modellərə bağlı qalıb hər şeyi növbə ilə və rigid (çevik olmayan) etməyə çalışmaqdır. Müasir layihələrdə müştəri istəkləri hər həftə dəyişir. Əgər biz SDLC-ni elə qurmasaq ki, hər mərhələdə (həm kodlamada, həm testdə) müştəridən davamlı rəy alaq, onda layihə mütləq gecikəcək və ayrılan pul boşa gedəcək. Problemin real həlli komandaların birlikdə çevik (Agile) işləməsi və proqramın təhlükəsizlik testlərini ən son günə saxlamamaqdır.
+
+5) Mövzu ilə Bağlı İzlədiyim Multimedia Mənbələri
+
+• Mənbə 1 (YouTube): Problems of the Systems Development Life Cycle (https://www.youtube.com/watch?v=SdI8FBAvSEA)
+	• Mənim qeydim: Bu mühazirədə SDLC mərhələlərində maraqlı tərəflər (stakeholders) arasında kommunikasiya qopuqluğunun və zəif tələb analizinin sistemin performansına və istifadəçi məmnuniyyətinə necə mənfi təsir etdiyi real nümunələrlə çox bəsit şəkildə izah olunub.
+• Mənbə 2 (YouTube): Risks for Software Development Life Cycle (https://www.youtube.com/watch?v=gl8LkOxxXbU)
+	• Mənim qeydim: Layihələrin idarə edilməsində büdcə və zaman məhdudiyyətləri altında proqramçıların üzləşdiyi stressi və bu zaman buraxılan strateji səhvlərin vizual analizini verir.
